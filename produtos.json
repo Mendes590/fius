@@ -1,0 +1,93 @@
+[
+    {
+      "sector": "Contencioso Administrativo",
+      "color": "#4dabf7",
+      "products": [
+        {
+          "name": "Manifestação de Inconformidade",
+          "recurrence": "Moderada",
+          "complexity": "Alta",
+          "description": "Utilizada em fiscalizações federais de maior impacto econômico ou técnico."
+        },
+        {
+          "name": "Impugnação Administrativa",
+          "recurrence": "Alta",
+          "complexity": "Alta",
+          "description": "Defesa corriqueira de autuações de ICMS e ISS (glosas, omissões, diferenças EFD/GIA)."
+        },
+        {
+          "name": "Recursos Administrativos (Especial, Ordinário e Voluntário)",
+          "recurrence": "Alta",
+          "complexity": "Alta",
+          "description": "Etapas obrigatórias para exaurir a via administrativa em litígios relevantes."
+        },
+        {
+          "name": "Fiscalizações (Federal, Estadual e Municipal)",
+          "recurrence": "Alta",
+          "complexity": "Alta",
+          "description": "Atuação em fiscalizações frequentes, especialmente quando há grande volume de transações."
+        }
+      ]
+    },
+    {
+      "sector": "Regularização Fiscal",
+      "color": "#5ec576",
+      "products": [
+        {
+          "name": "Denúncia Espontânea",
+          "recurrence": "Alta",
+          "complexity": "Moderada",
+          "description": "Regulariza espontaneamente débitos identificados em auditorias internas ou iminência de fiscalização."
+        },
+        {
+          "name": "Transação Tributária",
+          "recurrence": "Alta",
+          "complexity": "Alta",
+          "description": "Programa de regularização fiscal com condições especiais (federal e estaduais)."
+        },
+        {
+          "name": "Parcelamento Tributário",
+          "recurrence": "Muito Alta",
+          "complexity": "Baixa",
+          "description": "Solução comum de parcelamento de débitos nas três esferas."
+        }
+      ]
+    },
+    {
+      "sector": "Requerimentos",
+      "color": "#ffb703",
+      "products": [
+        {
+          "name": "Requerimentos Administrativos",
+          "recurrence": "Muito Alta",
+          "complexity": "Baixa",
+          "description": "Fluxo contínuo de atendimento técnico junto aos entes tributantes."
+        }
+      ]
+    },
+    {
+      "sector": "Certidões",
+      "color": "#ef476f",
+      "products": [
+        {
+          "name": "Pedido de CND (Certidão Negativa de Débitos)",
+          "recurrence": "Muito Alta",
+          "complexity": "Baixa",
+          "description": "Necessária para empresas que contratam com o poder público ou instituições financeiras."
+        }
+      ]
+    },
+    {
+      "sector": "Due Diligence",
+      "color": "#8338ec",
+      "products": [
+        {
+          "name": "Due Diligence Tributária",
+          "recurrence": "Baixa a Moderada",
+          "complexity": "Alta",
+          "description": "Auditoria tributária em operações extraordinárias (M&A, entrada de fundos)."
+        }
+      ]
+    }
+  ]
+  

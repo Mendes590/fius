@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Galáxia Tributária</title>
+
+  <!-- Fonte institucional -->
+  <link href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- D3.js -->
+  <script src="https://d3js.org/d3.v6.min.js" defer></script>
+
+  <!-- Código principal -->
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <!-- Cabeçalho fixo -->
+  <header>
+    <div class="brand">
+      <img src="assets/logo.png" alt="Logo" />
+      <h1>Galáxia Tributária</h1>
+    </div>
+    <p class="subtitle">
+      Navegue pelos produtos do time de Contencioso Tributário Administrativo.
+    </p>
+
+    <!-- NOVO: filtros -->
+    <div class="filters">
+      <select id="macro-filter">
+        <option value="">Todos os setores</option>
+      </select>
+
+      <select id="micro-filter">
+        <option value="">Todos os produtos</option>
+      </select>
+
+      <input id="search-input" type="text" placeholder="Buscar produto…" />
+    </div>
+  </header>
+
+  <!-- Contêiner do universo -->
+  <div id="universe"></div>
+
+  <!-- Tooltip (detalhes do produto) -->
+  <div id="tooltip" class="hidden" role="dialog" aria-hidden="true">
+    <button id="tt-close" aria-label="Fechar">×</button>
+    <h2 id="tt-title"></h2>
+    <p id="tt-desc"></p>
+    <div id="tt-tags"></div>
+  </div>
+</body>
+</html>
